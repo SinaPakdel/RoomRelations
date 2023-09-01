@@ -5,11 +5,11 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Transaction
-import com.sina.roomrelations.db.Director
-import com.sina.roomrelations.db.School
-import com.sina.roomrelations.db.Student
-import com.sina.roomrelations.db.relations.SchoolAndDirector
-import com.sina.roomrelations.db.relations.SchoolWithStudents
+import com.sina.roomrelations.db.entities.Director
+import com.sina.roomrelations.db.entities.School
+import com.sina.roomrelations.db.entities.Student
+import com.sina.roomrelations.db.relations.oneToOne.SchoolAndDirector
+import com.sina.roomrelations.db.relations.onToN.SchoolWithStudents
 
 @Dao
 interface SchoolDao {

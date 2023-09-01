@@ -1,4 +1,4 @@
-package com.sina.roomrelations.db
+package com.sina.roomrelations.db.entities
 
 import androidx.room.PrimaryKey
 
